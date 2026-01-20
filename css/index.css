@@ -1,0 +1,55 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', monospace;
+}
+
+/* Fondo */
+body {
+    min-height: 100vh;
+    background: linear-gradient(#6ab04c, #218c3a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor */
+.menu-container {
+    background: #3b3b3b;
+    padding: 40px;
+    border: 6px solid #1f1f1f;
+    text-align: center;
+}
+
+/* Título */
+.title {
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-size: 16px;
+    text-shadow: 2px 2px #000;
+}
+
+/* Botones */
+.btn {
+    display: block;
+    margin: 15px 0;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    background: #7d7d7d;
+    border: 4px solid #2a2a2a;
+    box-shadow: inset -4px -4px #5a5a5a;
+    transition: 0.1s;
+}
+
+/* Hover */
+.btn:hover {
+    background: #8f8f8f;
+}
+
+/* Click */
+.btn:active {
+    box-shadow: inset 4px 4px #5a5a5a;
+}
