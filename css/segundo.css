@@ -1,5 +1,5 @@
 /* =========================
-   RESET + FUENTE
+   fuente
 ========================= */
 * {
     margin: 0;
@@ -9,7 +9,7 @@
 }
 
 /* =========================
-   FONDO GENERAL
+   fondo
 ========================= */
 body {
     min-height: 100vh;
@@ -21,7 +21,7 @@ body {
 }
 
 /* =========================
-   CONTENEDOR PRINCIPAL
+   contenedor principal
 ========================= */
 .page-container {
     max-width: 900px;
@@ -34,7 +34,7 @@ body {
 }
 
 /* =========================
-   TÍTULO PRINCIPAL
+   titutlo
 ========================= */
 .page-title {
     text-align: center;
@@ -45,7 +45,7 @@ body {
 }
 
 /* =========================
-   BLOQUES DE CONTENIDO
+    bloques de contenido
 ========================= */
 .block {
     margin-bottom: 30px;
@@ -54,14 +54,14 @@ body {
     border: 4px solid #1a1a1a;
 }
 
-/* Subtítulos */
+/* subtitulos */
 .block h2 {
     margin-bottom: 12px;
     font-size: 12px;
     color: #6ab04c;
 }
 
-/* Texto */
+/* texto */
 .block p {
     font-size: 11px;
     line-height: 1.8;
@@ -70,7 +70,7 @@ body {
 }
 
 /* =========================
-   SECCIÓN ÁLBUMES
+   seccion de los albumes
 ========================= */
 .albums {
     display: flex;
@@ -93,7 +93,7 @@ body {
     transform: scale(1.1);
 }
 
-/* Nota debajo de álbumes */
+/* nota debajo de los albumes */
 .note {
     font-size: 9px;
     color: #cccccc;
@@ -101,7 +101,7 @@ body {
 }
 
 /* =========================
-   BOTONES MINECRAFT
+   botones minecraft
 ========================= */
 .btn {
     display: block;
@@ -125,7 +125,7 @@ body {
 }
 
 /* =========================
-   ESQUINAS DECORATIVAS
+   esquinas decorativas
 ========================= */
 .corner {
     position: absolute;
@@ -134,7 +134,7 @@ body {
     image-rendering: pixelated;
 }
 
-/* Posiciones */
+/* pocisiones */
 .top-left {
     top: -20px;
     left: -20px;
